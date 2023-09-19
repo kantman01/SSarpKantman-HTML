@@ -38,55 +38,9 @@
     border-style: groove;
 }
 
-  *
-  {
-   box-sizing: border-box;
 
-  }
 
-  .main-header {
-    background-color: rgb(119, 92, 18);
-    border-style: groove;
-    border-color: black;
-
-    
-  }
-
-.main-nav {
-    display: inline-block;
-    width: calc(100%-74px);
-    
-}
-
-.istanbul {
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    padding-bottom: 10px;
-    
-  
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-    
-
-}
-
-.jazz {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-
-}
-
-    .Ülkeler {
-    display: inline-block;
-    text-decoration: none;
-
-}
-
-.Sinema {
+.bronxtale {
     display: inline-block;
     padding: 20px;
     text-decoration: none;
@@ -101,6 +55,7 @@ body {
     background-size: initial;
     height: 100%;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 #Sinema {
@@ -114,4 +69,97 @@ body {
 }
 
   
-  
+  *{
+    padding: 0%;
+    box-sizing: 0;
+    box-sizing: border-box;
+  }
+
+
+.menu-bar{
+    background:rgb(119, 92, 18);
+    border-style:solid;
+    border-width: 2px;
+
+
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    
+    
+}
+
+.menu-bar ul li {
+    width: 160px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+
+}
+
+.menu-bar .fas{
+ 
+margin-right: 10px;
+
+}
+
+.RüstemPaşaCamii{
+    display: none;
+}
+
+.menu-bar ul li:hover .RüstemPaşaCamii{
+    display: block;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: -15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.menu-bar ul li:hover .RüstemPaşaCamii ul{
+    display: block;
+}
+
+.menu-bar ul:hover .RüstemPaşaCamii ul li{
+    width:120px ;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+}
+
+.menu-bar ul li:hover .RüstemPaşaCamii ul li a:hover{
+    color:rgb(119, 92, 18);
+}
+
+.fa-caret-right{
+    font-size: 15px;
+    float: right;
+}
+
+.müzeler{
+    display: none;
+}
+.hower-müze:hover .müzeler{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 120px;
+    background: #ffffff;
+}
