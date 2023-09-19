@@ -1,5 +1,5 @@
-#page-title { background-color: rgb(119, 92, 18);
-            color: rgb(0, 0, 0);
+#page-title { background-color: #1b1b1b;
+            color: rgb(255, 255, 255);
         }
 
 #page-title { padding: 20px;
@@ -77,7 +77,7 @@ body {
 
 
 .menu-bar{
-    background:rgb(119, 92, 18);
+    background:rgba(0,0,0,0.2);
     border-style:solid;
     border-width: 2px;
 
@@ -265,3 +265,34 @@ margin-right: 10px;
   input{
     display: none;
   }
+
+   
+img {
+    width: 100%;
+}
+
+
+
+#page-title .social-icons {
+    float:right;
+    margin-top: -45px;
+   color:#ffffff;
+   
+
+}
+
+#facebook-icon {
+  color: #1877f2; 
+}
+
+#linkedin-icon {
+  color: #0077B5; 
+}
+
+#instagram-icon{
+  color : #E4405F; 
+}
+
+#twitter-icon{
+  color: #1DA1F2;
+}
