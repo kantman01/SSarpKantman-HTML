@@ -92,3 +92,26 @@
     text-decoration: none;
 
 }
+
+body {
+    background-image: url(../Adsız\ tasarım\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: initial;
+    height: 100%;
+    margin: 0;
+  }
+
+#Sinema {
+    background-image: url(../Adsız\ tasarım\ \(4\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: initial;
+    height: 100%;
+    margin: 0;
+}
+
+  
+  
