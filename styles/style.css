@@ -1,5 +1,6 @@
 #page-title { background-color: #1b1b1b;
             color: rgb(255, 255, 255);
+            
         }
 
 #page-title { padding: 20px;
@@ -8,6 +9,10 @@
 
 #page-title { margin: 0px;
           
+}
+
+#page-title {
+  position: fi;
 }
 
 #alıntı {
@@ -40,11 +45,16 @@
 
 
 
-.bronxtale {
+#bronxtale-article {
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-
+    width:820px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 body {
@@ -206,6 +216,8 @@ margin-right: 10px;
     user-select: none;
     font-family: 'Poppins', sans-serif;
   }
+
+  
   nav{
     position: absolute;
     top: 23%;
@@ -306,10 +318,6 @@ img {
     width: 100%;
 }
 
-.bronx-1 { grid-column: 4 / 5; }
-.bronx-2 { grid-column: 1 / 8; }
-
-
 
 #page-title .social-icons {
     float:right;
@@ -335,22 +343,8 @@ img {
   color: #1DA1F2;
 }
 
-article {
-  display: grid;
-  grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
-  height: 100vh;
-  padding: 0.5in 0;
-  
-}
 
-article * {grid-column:  start / end; }
 
-@media (max-width: 8.5in){
-  article {grid-template-columns:1fr 0.5in[start] 15% 60% 15% [end] 0.5in 1fr ;}
-}
-  
-cards * {grid-column: start / end;}
-@media {grid-template-columns:[start] 1fr 0.5in 15% 60% 15% [end] 0;}
 
 .debug-center{
   display: flex;
@@ -362,53 +356,7 @@ cards * {grid-column: start / end;}
   width: 720px;
 }
 
-.cards{
-  margin: 0 auto;
-  max-width: 700px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  font-family: sans-serif;
-  float: left;
-  margin-left: 10px;
-  margin-top: 10px;
-}
-
-.card {
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5)
-}
-
-.card__image {
-  width: 100%;
-  display: block;
-
-}
-
-.card__content {
-  line-height: 1.5;
-  font-size: 0.9em;
-  padding: 15px;
-  background: #fafafa;
-
-}
-
-.card__content > p:first-of-type {
-  margin-top: o;
-}
-
-.card__content > p:last-of-type {
-  margin-bottom: o;
-}
-
-.card__info {
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  background: #eeeeee;
-  font-size: 0.8em;
-  border-bottom: 2px solid #cccccc;
-
-}
+  
 
 .benzer {
   margin-top: 15px;
@@ -425,3 +373,127 @@ cards * {grid-column: start / end;}
     text-align: center;
 
   }
+  
+
+  
+  article {
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
+    height: 100vh;
+    padding: 0.5in 0;
+    
+  }
+  
+  
+  article * {grid-column:  start / end; }
+  
+  @media (max-width: 8.5in){
+    article {grid-template-columns:1fr 0.5in[start] 15% 60% 15% [end] 0.5in 1fr ;}
+  }
+
+  
+
+
+.cards{
+margin: 0 auto;
+max-width: 800px;
+display: grid;
+grid-template-columns: [start] 1fr 0.5in 1.25in [end] 5in 1.25in  0.5in 1fr;
+font-family: sans-serif;
+float: left;
+float: top;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.cards * {grid-column:  start / end; }
+  
+@media (max-width: 8.5in){
+  .cards {grid-template-columns:[start]1fr 0.5in 15% [end] 60%[end] 15%  0.5in 1fr ;}
+}
+
+.card {
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5)
+}
+
+.card__image {
+width: 100%;
+display: block;
+
+}
+
+.card__content {
+line-height: 1.5;
+font-size: 0.9em;
+padding: 15px;
+background: #fafafa;
+
+}
+
+.card__content > p:first-of-type {
+margin-top: o;
+}
+
+.card__content > p:last-of-type {
+margin-bottom: o;
+}
+
+.card__info {
+padding: 15px;
+display: flex;
+justify-content: space-between;
+background: #eeeeee;
+font-size: 0.8em;
+border-bottom: 2px solid #cccccc;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Literata");
+
+#toc_container {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  font-size: 95%;
+  padding: 20px;
+  position: absolute;
+  margin: 20px;
+  margin-right: 85px;
+  width: auto;
+    top: 28%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    padding: 8px 25px;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+   
+}
+
+#toc_container .toc_list li a[href="#First_Point_Header"] {
+  font-size: 18px; 
+  color: #000000;
+}
+
+#toc_container .toc_list li a[href="#Second_Point_Header"] {
+  font-size: 18px; 
+  color: #000000;
+}
+#toc_container .toc_list li a[href="#Third_Point_Header"] {
+  font-size: 18px;
+  color: #000; 
+}
+#toc_container .toc_list li a[href="#First_Sub_Point_1"] {
+  
+  color: #000; 
+}
+#toc_container .toc_list li a[href="#First_Sub_Point_2"] {
+  
+  color: #000; 
+}
+         
