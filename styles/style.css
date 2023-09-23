@@ -374,7 +374,7 @@ img {
   margin-left: 4px;
   font-size: large;
   background: #1b1b1b;
-    width: 230px;
+    width: 268px;
     line-height: 40px;
     padding: 8px 25px;
     border-radius: 5px;
@@ -405,37 +405,32 @@ img {
   
 
 
-.cards{
+.cards1{
 margin: 0 auto;
-max-width: 400px;
-height: 600px;
+max-width: 260px;
+height: auto;
 display: grid;
-grid-template-columns: [start] 1fr 0.5in 1.25in [end] 5in 1.25in  0.5in 1fr;
 font-family: sans-serif;
 float: left;
 float: top;
 margin-left: 10px;
 margin-top: 10px;
+grid-template-rows: auto ;
 }
 
-.cards * {grid-column:  start / end; }
-  
-@media (max-width: 8.5in){
-  .cards {grid-template-columns:[start]1fr 0.5in 15% [end] 60%[end] 15%  0.5in 1fr ;}
-}
 
-.card {
+.card1 {
 box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 height: 350px;
 }
 
-.card__image {
+.card__image1,.card__image2,.card__image3 {
 width: 100%;
 display: block;
 
 }
 
-.card__content {
+.card__content1,.card__content2,.card__content3 {
 line-height: 1.5;
 font-size: 0.9em;
 padding: 15px;
@@ -443,15 +438,15 @@ background: #fafafa;
 
 }
 
-.card__content > p:first-of-type {
+.card__content1 > p:first-of-type {
 margin-top: o;
 }
 
-.card__content > p:last-of-type {
+.card__content1 > p:last-of-type {
 margin-bottom: o;
 }
 
-.card__info {
+.card__info1,.card__info2,.card__info3 {
 padding: 15px;
 display: flex;
 justify-content: space-between;
@@ -460,6 +455,8 @@ font-size: 0.8em;
 border-bottom: 2px solid #cccccc;
 
 }
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Literata");
 
@@ -487,7 +484,7 @@ border-bottom: 2px solid #cccccc;
   margin: 20px;
   margin-right: 85px;
   width: auto;
-    top: 13%;
+    top: 17%;
     right: -100%;
     transform: translate(-50%, -50%);
     padding: 8px 25px;
@@ -535,21 +532,38 @@ border-bottom: 2px solid #cccccc;
 #toc_container_page_iki .toc_list li a[href="#First_Point_Header"] {
   font-size: 18px; 
   color: #000000;
+  text-decoration: none;
 }
 
+#toc_container_page_iki .toc_list li a[href="#First_Sub_Point_1"] {
+  font-size: 18px; 
+  color: #000000;
+  text-decoration: none;
+
+}
 #toc_container_page_iki .toc_list li a[href="#First_Sub_Point_2"] {
   font-size: 18px; 
   color: #000000;
+  text-decoration: none;
+
 }
 #toc_container_page_iki .toc_list li a[href="#bigusdickus"] {
   font-size: 18px;
   color: #000; 
+  text-decoration: none;
+
 }
 #toc_container_page_iki .toc_list li a[href="#themost"] {
-  
+  font-size: 18px; 
+
   color: #000; 
+  text-decoration: none;
+
 }
 #toc_container_page_iki .toc_list li a[href="#sources"] {
-  
+  font-size: 18px; 
+
   color: #000; 
+  text-decoration: none;
+
 }
