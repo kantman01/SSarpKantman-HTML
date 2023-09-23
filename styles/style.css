@@ -44,6 +44,17 @@
 }
 
 
+#lifeofbrain-article{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  width:820px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #bronxtale-article {
     display: inline-block;
@@ -396,7 +407,8 @@ img {
 
 .cards{
 margin: 0 auto;
-max-width: 800px;
+max-width: 400px;
+height: 600px;
 display: grid;
 grid-template-columns: [start] 1fr 0.5in 1.25in [end] 5in 1.25in  0.5in 1fr;
 font-family: sans-serif;
@@ -413,7 +425,8 @@ margin-top: 10px;
 }
 
 .card {
-box-shadow: 0 0 3px rgba(0, 0, 0, 0.5)
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+height: 350px;
 }
 
 .card__image {
@@ -450,7 +463,7 @@ border-bottom: 2px solid #cccccc;
 
 @import url("https://fonts.googleapis.com/css2?family=Literata");
 
-#toc_container {
+#toc_container_page_bir {
   background: #f9f9f9 none repeat scroll 0 0;
   border: 1px solid #aaa;
   font-size: 95%;
@@ -460,7 +473,22 @@ border-bottom: 2px solid #cccccc;
   margin-right: 85px;
   width: auto;
     top: 28%;
-    right: -10%;
+    right: -11%;
+    transform: translate(-50%, -50%);
+    padding: 8px 25px;
+}
+
+#toc_container_page_iki{
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  font-size: 95%;
+  padding: 20px;
+  position: absolute;
+  margin: 20px;
+  margin-right: 85px;
+  width: auto;
+    top: 13%;
+    right: -100%;
     transform: translate(-50%, -50%);
     padding: 8px 25px;
 }
@@ -470,30 +498,58 @@ border-bottom: 2px solid #cccccc;
   text-align: center;
 }
 
-#toc_container li, #toc_container ul, #toc_container ul li{
+#toc_container_page_bir li, #toc_container ul, #toc_container ul li{
   list-style: outside none none !important;
    
 }
 
-#toc_container .toc_list li a[href="#First_Point_Header"] {
+#toc_container_page_bir .toc_list li a[href="#First_Point_Header"] {
   font-size: 18px; 
   color: #000000;
 }
 
-#toc_container .toc_list li a[href="#Second_Point_Header"] {
+#toc_container_page_bir .toc_list li a[href="#Second_Point_Header"] {
   font-size: 18px; 
   color: #000000;
 }
-#toc_container .toc_list li a[href="#Third_Point_Header"] {
+#toc_container_page_bir .toc_list li a[href="#Third_Point_Header"] {
   font-size: 18px;
   color: #000; 
 }
-#toc_container .toc_list li a[href="#First_Sub_Point_1"] {
+#toc_container_page_bir .toc_list li a[href="#First_Sub_Point_1"] {
   
   color: #000; 
 }
-#toc_container .toc_list li a[href="#First_Sub_Point_2"] {
+#toc_container_page_bir .toc_list li a[href="#First_Sub_Point_2"] {
   
   color: #000; 
 }
          
+
+
+#toc_container_page_iki li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+   
+}
+
+#toc_container_page_iki .toc_list li a[href="#First_Point_Header"] {
+  font-size: 18px; 
+  color: #000000;
+}
+
+#toc_container_page_iki .toc_list li a[href="#First_Sub_Point_2"] {
+  font-size: 18px; 
+  color: #000000;
+}
+#toc_container_page_iki .toc_list li a[href="#bigusdickus"] {
+  font-size: 18px;
+  color: #000; 
+}
+#toc_container_page_iki .toc_list li a[href="#themost"] {
+  
+  color: #000; 
+}
+#toc_container_page_iki .toc_list li a[href="#sources"] {
+  
+  color: #000; 
+}
