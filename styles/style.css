@@ -1,17 +1,17 @@
-#page-title { background-color: #1b1b1b;
+#page-title1 { background-color: #1b1b1b;
             color: rgb(255, 255, 255);
             
         }
 
-#page-title { padding: 20px;
+#page-title1 { padding: 20px;
 
 }
 
-#page-title { margin: 0px;
+#page-title1 { margin: 0px;
           
 }
 
-#page-title {
+#page-title1 {
   position: fi;
 }
 
@@ -330,7 +330,7 @@ img {
 }
 
 
-#page-title .social-icons {
+#page-title1 .social-icons {
     float:right;
     margin-top: -45px;
    color:#ffffff;
@@ -367,7 +367,39 @@ img {
   width: 720px;
 }
 
+
+.card_önerilenler1{
+  margin-top: 15px;
+  margin-left: 1200px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 268px;
+    height: 45px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.enyeni{
   
+  margin-top: 15px;
+  margin-left: 600px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 268px;
+    height: 45px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
 
 .benzer {
   margin-top: 15px;
@@ -402,8 +434,48 @@ img {
     article {grid-template-columns:1fr 0.5in[start] 15% 60% 15% [end] 0.5in 1fr ;}
   }
 
+
+  .wrap {
+    display: flex; 
+     justify-content: space-between;
+     }
   
 
+.card_yeni{
+  margin: 0 auto; /* Sayfanın yatay ortasında hizalamak için */
+  max-width: 260px;
+  height: 260px; /* Dikdörtgen oluşturmak için sabit bir yükseklik kullanabilirsiniz */
+  background-color: #f0f0f0; /* Dikdörtgenin arka plan rengi */
+  display: flex;
+  align-items: center; /* İçeriği dikey olarak ortalamak için */
+  justify-content: center; /* İçeriği yatay olarak ortalamak için */
+  font-family: sans-serif;
+  margin-top: 10px;
+
+}
+
+
+.card__content__yeni{
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background: #fafafa;
+  padding-right: 360px;
+  width: 400px;
+  height: 260px;
+  
+}
+
+.brainyeni{
+  width: 360px;
+  height: 220px;
+}
+
+.devam{
+  text-align: justify;
+  float: right;
+  margin-top: 40px;
+}
 
 .cards1{
 margin: 0 auto;
@@ -417,6 +489,7 @@ margin-left: 10px;
 margin-top: 10px;
 grid-template-rows: auto ;
 }
+
 
 
 .card1 {
@@ -567,3 +640,39 @@ border-bottom: 2px solid #cccccc;
   text-decoration: none;
 
 }
+#wrapper {
+  background: #ccc;
+  overflow: hidden;
+  transition: height 200ms;
+}
+
+.collapsible {
+  background-color: rgba(0,0,0,0.2);
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 10px;
+}
+
+.active, .collapsible:hover{
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 0;
+}
+
