@@ -367,10 +367,34 @@ img {
   width: 720px;
 }
 
+.toplu1{
+  margin-top: 60px;
+}
+
+.toplu{
+  margin-left:240px ;
+
+}
 
 .card_önerilenler1{
   margin-top: 15px;
   margin-left: 1200px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 268px;
+    height: 45px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.önerilenler{
+  margin-top: 150px;
+  margin-left: 15px;
   font-size: large;
   background: #1b1b1b;
     width: 268px;
@@ -440,6 +464,32 @@ img {
      justify-content: space-between;
      }
   
+
+     .card_yeni2{
+      margin-left: 900px; /* Sayfanın yatay ortasında hizalamak için */
+      max-width: 260px;
+      height: 260px; /* Dikdörtgen oluşturmak için sabit bir yükseklik kullanabilirsiniz */
+      background-color: #f0f0f0; /* Dikdörtgenin arka plan rengi */
+      display: flex;
+      align-items: center; /* İçeriği dikey olarak ortalamak için */
+      justify-content: center; /* İçeriği yatay olarak ortalamak için */
+      font-family: sans-serif;
+      margin-top: -260px;
+     }
+
+     .card_yeni1{
+      margin-left: 220px; /* Sayfanın yatay ortasında hizalamak için */
+      max-width: 260px;
+      height: 260px; /* Dikdörtgen oluşturmak için sabit bir yükseklik kullanabilirsiniz */
+      background-color: #f0f0f0; /* Dikdörtgenin arka plan rengi */
+      display: flex;
+      align-items: center; /* İçeriği dikey olarak ortalamak için */
+      justify-content: center; /* İçeriği yatay olarak ortalamak için */
+      font-family: sans-serif;
+      margin-top: 10px;
+    
+    }
+
 
 .card_yeni{
   margin: 0 auto; /* Sayfanın yatay ortasında hizalamak için */
