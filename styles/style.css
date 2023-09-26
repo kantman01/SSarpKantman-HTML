@@ -1,19 +1,46 @@
-#page-title1 { background-color: #1b1b1b;
+#page-title-anasayfa { background-color: #1b1b1b;
             color: rgb(255, 255, 255);
-            
+            padding: 0px;
+            margin: 0px;
         }
 
-#page-title1 { padding: 20px;
-
-}
-
-#page-title1 { margin: 0px;
-          
-}
-
-#page-title1 {
+#page-title1-anasayfa {
   position: fi;
 }
+
+#page-title-anasayfa .social-icons {
+  float:right;
+  margin-top: -45px;
+  color:#ffffff;
+}
+
+#facebook-icon {
+color: #1877f2; 
+}
+
+#linkedin-icon {
+color: #0077B5; 
+}
+
+#instagram-icon{
+color : #E4405F; 
+}
+
+#twitter-icon{
+color: #1DA1F2;
+}
+
+.logo{
+  height: 180px;
+  width: 500px;
+
+}
+
+
+
+
+
+
 
 #alıntı {
     border-style: groove;
@@ -180,7 +207,7 @@ margin-right: 10px;
     color:rgb(119, 92, 18);
 }
 
-.jazz, .Sinema, .Dünya, .istanbul{
+.jazz, .Sinema, .Dünya, .istanbul, .edebiyat{
   font-size: 15px;
 }
 
@@ -330,29 +357,6 @@ img {
 }
 
 
-#page-title1 .social-icons {
-    float:right;
-    margin-top: -45px;
-   color:#ffffff;
-   
-
-}
-
-#facebook-icon {
-  color: #1877f2; 
-}
-
-#linkedin-icon {
-  color: #0077B5; 
-}
-
-#instagram-icon{
-  color : #E4405F; 
-}
-
-#twitter-icon{
-  color: #1DA1F2;
-}
 
 
 
@@ -371,9 +375,29 @@ img {
   margin-top: 60px;
 }
 
+.toplu2{
+  margin-left: 0;
+}
+
 .toplu{
   margin-left:240px ;
 
+}
+
+.günü{
+  margin-top: 15px;
+  margin-left: -1200px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 268px;
+    height: 45px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
 }
 
 .card_önerilenler1{
@@ -383,6 +407,54 @@ img {
   background: #1b1b1b;
     width: 268px;
     height: 45px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.önerilenler3{
+  margin-top: 15px;
+  margin-left: 1440px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.önerilenler2{
+  margin-top: 15px;
+  margin-left: 720px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.önerilenler1{
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: large;
+  background: #1b1b1b;
+    width: 220px;
+    height: 40px;
     line-height: 40px;
     padding: 8px 25px;
     border-radius: 5px;
@@ -464,6 +536,18 @@ img {
      justify-content: space-between;
      }
   
+
+   .card_yeni3{
+  margin-left: 1570px; /* Sayfanın yatay ortasında hizalamak için */
+  max-width: 260px;
+  height: 260px; /* Dikdörtgen oluşturmak için sabit bir yükseklik kullanabilirsiniz */
+  background-color: #f0f0f0; /* Dikdörtgenin arka plan rengi */
+  display: flex;
+  align-items: center; /* İçeriği dikey olarak ortalamak için */
+  justify-content: center; /* İçeriği yatay olarak ortalamak için */
+  font-family: sans-serif;
+  margin-top: -260px;
+  }
 
      .card_yeni2{
       margin-left: 900px; /* Sayfanın yatay ortasında hizalamak için */
